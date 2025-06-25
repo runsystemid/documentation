@@ -7,11 +7,11 @@
   },
   "servers": [
     {
-      "url": "https://app.accountingplus.id/api",
+      "url": "https://sample.accountingplus.id",
       "description": "Main API Server",
       "variables": {
         "url": {
-          "default": "https://app.accountingplus.id/api",
+          "default": "https://sample.accountingplus.id",
           "description": "The API base URL"
         }
       }
