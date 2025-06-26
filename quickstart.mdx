@@ -6,7 +6,7 @@ title: "Quickstart"
 
 The Accounting\+ API is organized around REST principles with predictable resource-oriented URLs. All API responses return JSON and use standard HTTP response codes, authentication, and verbs.
 
-**Base URL:** `https://example.accountingplus.id`
+**Base URL:** `https://api.example.com`
 
 ### Authentication
 
@@ -14,7 +14,7 @@ All API requests require authentication using Bearer tokens. Include your token 
 
 ```bash
 curl -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
-  https://example.accountingplus.id/v1/vouchers
+  https://api.example.com/v1/vouchers
 ```
 
 <Note>
@@ -29,7 +29,7 @@ Here's a simple example to retrieve your vouchers:
 
 ```bash cURL
 curl -X GET \
-  "https://example.accountingplus.id/v1/vouchers?limit=10&page=1" \
+  "https://api.example.com/v1/vouchers?limit=10&page=1" \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
   -H "Content-Type: application/json"
 ```
