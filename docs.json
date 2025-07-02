@@ -26,7 +26,12 @@
             "group": "Master Data",
             "pages": [
               "documentation/master-data/bagan-akun",
-              "documentation/master-data/bank"
+              "documentation/master-data/bank",
+              "documentation/master-data/tax",
+              "documentation/master-data/currency",
+              "documentation/master-data/payment-term",
+              "documentation/master-data/unit",
+              "documentation/master-data/bank-account"
             ]
           }
         ]
