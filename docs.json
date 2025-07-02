@@ -14,17 +14,19 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Pengenalan",
             "pages": [
-              "index",
-              "what-is-accounting+",
-              "quickstart"
+              "documentation/introduction/what-is-accounting+",
+              "documentation/introduction/create-account",
+              "documentation/introduction/login",
+              "documentation/introduction/logout"
             ]
           },
           {
-            "group": "Apa itu Accounting+",
+            "group": "Master Data",
             "pages": [
-              "tutorial/overview"
+              "documentation/master-data/bagan-akun",
+              "documentation/master-data/bank"
             ]
           }
         ]
@@ -32,6 +34,13 @@
       {
         "tab": "API Reference",
         "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/get-started",
+              "api-reference/quickstart"
+            ]
+          },
           {
             "group": "Arus Kas Bank",
             "pages": [
